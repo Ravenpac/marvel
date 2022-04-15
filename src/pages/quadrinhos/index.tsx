@@ -90,7 +90,7 @@ const HQ = () => {
           <BackgroundImg
             boxShadow="150%"
             width="50%"
-            height="calc(100vh - 7.125rem)"
+            height="calc(100vh - 114px)"
           />
         </Content>
         {openModal && (

@@ -4,11 +4,10 @@ export const Page = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 `;
 
-export const Content = styled.main`
-  height: 100vh;
-`;
+export const Content = styled.main``;
 
 export const Carousel = styled.section`
   display: flex;
@@ -28,7 +27,7 @@ export const CardSelector = styled.div`
   position: absolute;
   top: 30%;
 
-  gap: 6.43rem;
+  gap: 103px;
 
   color: var(--red);
   z-index: 1;
@@ -40,7 +39,7 @@ export const Img = styled.img`
   margin-right: auto;
   width: 100%;
   height: 100%;
-  border-radius: 1.5rem;
+  border-radius: 24px;
 `;
 
 export const CardSelectorInfo = styled.div`
@@ -51,10 +50,10 @@ export const CardSelectorInfo = styled.div`
   position: absolute;
   bottom: 0;
 
-  width: 18.0625rem;
-  height: 14.625rem;
+  width: 290px;
+  height: 234px;
 
-  border-radius: 1.5rem;
+  border-radius: 24px;
   background: linear-gradient(var(--red) 5%, transparent 120%);
   color: white;
 
@@ -63,13 +62,13 @@ export const CardSelectorInfo = styled.div`
     font-family: "Axiforma";
     font-weight: 700;
 
-    margin-top: 1.75rem;
-    margin-bottom: 0.5rem;
+    margin-top: 28px;
+    margin-bottom: 8px;
   }
 
   p {
-    width: 15.1875rem;
-    height: 7.6875rem;
+    width: 243px;
+    height: 123px;
 
     font-size: 0.75rem;
     font-family: "Axiforma";
@@ -83,7 +82,7 @@ export const CardSelectorInfo = styled.div`
     font-family: "Axiforma";
     font-weight: 100;
 
-    margin-top: 0.75rem;
+    margin-top: 12px;
 
     cursor: pointer;
 

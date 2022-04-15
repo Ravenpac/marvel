@@ -5,8 +5,8 @@ export const Container = styled.div`
   top: 37.8%;
   left: 14.6%;
   position: absolute;
-  height: 27.43rem;
-  width: 42.4rem;
+  height: 439px;
+  width: 678.5px;
   z-index: 1000;
 
   color: #fff;
@@ -20,39 +20,39 @@ export const Details = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2.53125rem;
+  margin-left: 40.5px;
 `;
 
 export const Title = styled.h1`
   font-size: 1.875rem;
   font-weight: bold;
   font-family: "Axiforma";
-  width: 17.6875rem;
+  width: 283px;
 `;
 
 export const Paragraph = styled.p`
   font-size: 1.125rem;
   font-weight: 100;
   font-family: "Axiforma";
-  width: 17.6875rem;
-  line-height: 1.375rem;
+  width: 283px;
+  line-height: 22px;
 `;
 
 export const Movies = styled.div`
-  padding: 1rem 0;
+  padding: 16px 0;
 `;
 
 export const MovieName = styled.h2`
   font-size: 1.125rem;
   font-weight: bold;
   font-family: "Axiforma";
-  width: 17.6875rem;
+  width: 283px;
 `;
 
 export const Avaible = styled.img`
-  width: 3rem;
-  height: 3rem;
-  border-radius: 1.5rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
   position: relative;
   margin-right: auto;
 `;
@@ -61,6 +61,6 @@ export const Note = styled.h3`
   font-size: 1.625rem;
   font-weight: 400;
   font-family: "Axiforma";
-  width: 17.6875rem;
-  margin-top: 1rem;
+  width: 283px;
+  margin-top: 16px;
 `;

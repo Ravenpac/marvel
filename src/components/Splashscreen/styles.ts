@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  max-width: 1366px;
   background: #000000;
   display: flex;
   align-items: center;
@@ -17,8 +17,8 @@ export const Logo = styled.div`
   div {
     align-self: center;
     background: var(--red);
-    width: 15rem;
-    height: 6rem;
+    width: 240px;
+    height: 96px;
   }
 
   h1 {

@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #000;
     height: 100vh;
+    text-rendering: optimizeLegibility;
   }
 
   button {
@@ -34,37 +35,37 @@ const GlobalStyle = createGlobalStyle`
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Bold'), url(../assets/fonts/AxiformaBold.otf) format('TrueType');
+   src: local('Axiforma Bold'), url(../assets/fonts/AxiformaBold.otf) format('OpenType');
    font-weight: 700;
  }
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Semibold'), url(../assets/fonts/AxiformaSemibold.otf) format('TrueType');
+   src: local('Axiforma Semibold'), url(../assets/fonts/AxiformaSemibold.otf) format('OpenType');
    font-weight: 600;
  }
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Medium'), url(../assets/fonts/AxiformaMedium.otf) format('TrueType');
+   src: local('Axiforma Medium'), url(../assets/fonts/AxiformaMedium.otf) format('OpenType');
    font-weight: 500;
  }
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Regular'), url(../assets/fonts/AxiformaRegular.otf) format('TrueType');
+   src: local('Axiforma Regular'), url(../assets/fonts/AxiformaRegular.otf) format('OpenType');
    font-weight: 400;
  }
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Light'), url(../assets/fonts/AxiformaLight.otf) format('TrueType');
+   src: local('Axiforma Light'), url(../assets/fonts/AxiformaLight.otf) format('OpenType');
    font-weight: 300;
  }
 
  @font-face {
    font-family: 'Axiforma';
-   src: local('Axiforma Thin'), url(../assets/fonts/AxiformaThin.otf) format('TrueType');
+   src: local('Axiforma Thin'), url(../assets/fonts/AxiformaThin.otf) format('OpenType');
    font-weight: 100;
  }
 

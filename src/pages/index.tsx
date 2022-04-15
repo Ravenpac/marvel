@@ -59,55 +59,53 @@ const Home: NextPage = () => {
           <title>MARVEL</title>
         </Head>
 
-        <main>
-          <Container>
-            <Content>
-              <Logo>
-                <div>
-                  <h1>MARVEL</h1>
-                </div>
-              </Logo>
-              <Form onSubmit={handleSignIn}>
-                <h2>Bem-vindo(a) de volta!</h2>
+        <Container>
+          <Content>
+            <Logo>
+              <div>
+                <h1>MARVEL</h1>
+              </div>
+            </Logo>
+            <Form onSubmit={handleSignIn}>
+              <h2>Bem-vindo(a) de volta!</h2>
 
-                <h3>Acesse sua conta:</h3>
+              <h3>Acesse sua conta:</h3>
 
-                <Input
-                  type="text"
-                  placeholder="Usuário"
-                  id="user"
-                  required
-                  onChange={(event) =>
-                    setSignInData({ ...signInData, user: event.target.value })
-                  }
-                />
+              <Input
+                type="text"
+                placeholder="Usuário"
+                id="user"
+                required
+                onChange={(event) =>
+                  setSignInData({ ...signInData, user: event.target.value })
+                }
+              />
 
-                <Input
-                  type="password"
-                  placeholder="Senha"
-                  id="password"
-                  required
-                  onChange={(event) =>
-                    setSignInData({ ...signInData, user: event.target.value })
-                  }
-                />
+              <Input
+                type="password"
+                placeholder="Senha"
+                id="password"
+                required
+                onChange={(event) =>
+                  setSignInData({ ...signInData, user: event.target.value })
+                }
+              />
 
-                <Choose>
-                  <Checkbox type="checkbox" id="checkbox" />
-                  <div>Salvar login</div>
-                  <Forgot>Esqueci a senha</Forgot>
-                </Choose>
-                <Login>Entrar</Login>
-                <SignUp>
-                  Ainda não tem o login? <span>Cadastre-se</span>
-                </SignUp>
-              </Form>
-            </Content>
-            <Image>
-              <BackgroundImg boxShadow="100%" width="100%" height="100vh" />
-            </Image>
-          </Container>
-        </main>
+              <Choose>
+                <Checkbox type="checkbox" id="checkbox" />
+                <p>Salvar login</p>
+                <Forgot>Esqueci a senha</Forgot>
+              </Choose>
+              <Login>Entrar</Login>
+              <SignUp>
+                Ainda não tem o login? <span>Cadastre-se</span>
+              </SignUp>
+            </Form>
+          </Content>
+          <Image>
+            <BackgroundImg boxShadow="100%" width="100%" height="100vh" />
+          </Image>
+        </Container>
       </>
     );
 };
